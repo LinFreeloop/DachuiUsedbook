@@ -218,5 +218,7 @@ OnItemLongClickListener,android.view.View.OnClickListener,OnItemClickListener{
 			
 		}
 	};
-	
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	}
 }

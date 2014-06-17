@@ -120,4 +120,7 @@ public class UsedBook_Publish_Fragment extends Fragment implements OnClickListen
     		}
     	}
     };
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	}
 }

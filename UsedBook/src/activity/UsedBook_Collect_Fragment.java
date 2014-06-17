@@ -34,5 +34,7 @@ public class UsedBook_Collect_Fragment extends Fragment implements OnClickListen
 			break;
 	    }
 	}
-	
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	}
 }

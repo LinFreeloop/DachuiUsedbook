@@ -207,5 +207,7 @@ public class UsedBook_Browse_Fragment extends Fragment
     		}
     	}
     };
-
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	}
 }
